@@ -1,0 +1,53 @@
+.row {
+    margin: auto;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+.login {
+    width: 40px;
+}
+
+#aplogo {
+    width: 150px;
+}
+
+img {
+    width: 50px;
+}
+
+.img {
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .img {
+        width: 35px;
+    }
+    #aplogo {
+        width: 120px;
+    }
+    .login {
+        width: 33px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .rsoc {
+        margin-right: 4%;
+    }
+    #aplogo {
+        margin-left: 40px;
+    }
+}
