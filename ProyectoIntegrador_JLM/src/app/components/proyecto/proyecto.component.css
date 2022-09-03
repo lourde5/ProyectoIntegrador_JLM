@@ -1,0 +1,55 @@
+.row {
+    padding: 20px;
+    background-color: #445c64;
+    display: block;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div {
+    margin-bottom: 170px;
+}
+
+img {
+    width: 100%;
+    margin: 30px 0 30px 0;
+    border-radius: 10px;
+}
+#pry {
+    margin: 60px 0 60px 0;
+}
+
+.col1, h1 {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(212, 212, 212);
+    font-weight: bold;
+}
+
+.prt {
+    font-size: 25px;
+}
+
+p {
+    color: rgb(177, 177, 177);
+    font-size: 21px;
+    text-align: left;
+    padding: 0 10px 0 10px;
+}
+
+@media screen and (max-width: 480px) {
+    p {
+        color: rgb(177, 177, 177);
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .div {
+        padding: 30px;
+        background-color: #2c3642;
+        border-radius: 10px;
+    }
+}

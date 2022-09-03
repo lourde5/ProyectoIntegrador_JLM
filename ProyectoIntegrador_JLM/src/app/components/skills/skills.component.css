@@ -1,0 +1,12 @@
+.row {
+    background-color: #445c64;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: rgb(212, 212, 212);
+    padding: 50px 50px;
+}
