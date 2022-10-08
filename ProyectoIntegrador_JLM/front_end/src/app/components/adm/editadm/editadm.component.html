@@ -1,0 +1,18 @@
+<div class="container" *ngIf="editAdm">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+
+                <div class="form-group">
+                    <label for="nombreE">Acerca de mí:</label>
+                    <input type="text" class="form-control" id="nombreE" name="nombreE"
+                        [(ngModel)]="editAdm.nombreE" required>
+                </div>
+
+                <button class="btn btn-info">
+                    Editar
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

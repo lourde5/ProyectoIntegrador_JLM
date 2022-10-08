@@ -8,7 +8,8 @@
             <a href=""><img src="../../../assets/GHLogo.png" class="img"></a>
             <a href="about:blank" target="_blank"><img src="../../../assets/IGLogo.png" class="img"></a>
             <a href="about:blank" target="_blank"><img src="../../../assets/TWLogo.png" class="img"></a>
-            <button type="button" class="button"><img src="../../../assets/login.png" class="login"></button>
+            <button type="button" class="button"><img src="../../../assets/login.png" class="login" (click) = "login()" *ngIf="!isLogged"></button>
+            <button type="button" class="button"><img src="../../../assets/login.png" class="logout" (click) = "onLogOut()" *ngIf="isLogged"></button>
         </div>
     </div>
 

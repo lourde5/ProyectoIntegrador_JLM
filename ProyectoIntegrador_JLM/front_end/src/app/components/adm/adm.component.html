@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="foto">
+        <img src="../../../assets/foto_p.png" class="img-fluid" id="foto_p">
+
+        <div class="col-sm-12">
+            <h1 id="nombre">Juana Miranda</h1>
+            <h2 id="fsd">Jr. Full Stack Developer</h2>
+        </div>
+
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+        <div id="prs">
+            <h1 id="adm">Acerca de mí</h1>
+            <div *ngFor="let Adm of adm">
+                <ng-form>
+                    <p>{{Adm.nombreE}}</p>
+                </ng-form>
+
+                <button *ngIf="isLogged" class="btn btn-success" routerLink="/editadm/{{Adm.id}}">Editar</button>
+            </div>
+        </div>
+    </div>
+
+</div>

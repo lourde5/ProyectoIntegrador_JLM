@@ -15,7 +15,7 @@ button {
     border: 0;
 }
 
-.login {
+.login, .logout {
     width: 40px;
 }
 
@@ -38,7 +38,7 @@ img {
     #aplogo {
         width: 120px;
     }
-    .login {
+    .login, .logout {
         width: 33px;
     }
 }
